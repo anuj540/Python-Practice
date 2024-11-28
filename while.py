@@ -16,11 +16,27 @@
 #      print(prime)
     
 
+#  #print odd number 1to 20   
+# a=1
+# while a<=20:
+#     if(a%2==0):
+#      a=a+1
+#      continue
+#     print(a)
+#     a=a+1
+
+    #prime number 1 to 13
+
+for a in range(1,30):
     
-a=1
-while a<=20:
-    if(a%2==0):
-     a=a+1
-     continue
-    print(a)
-    a=a+1
+    if a>1:
+        for i in range(2,a):
+            if a% i==0:
+                break
+        else:
+
+          print(a)
+    
+        
+
+
